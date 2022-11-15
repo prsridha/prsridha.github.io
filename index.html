@@ -1,0 +1,188 @@
+<head>
+    <title>Pradyumna Sridhara</title>
+    <meta name="author" content="Pradyumna Sridhara">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Pradyumna Sridhara">
+	<meta property="og:description" content="MS in Computer Science, UC San Diego">
+    <meta property="og:image" content="files/me.jpeg">
+	<meta property="og:url" content="https://pradyumnasridhar.github.io/">
+	<meta name="twitter:card" content="summary_large_image">
+    <link rel="apple-touch-icon" href="files/ucsd-logo.png">
+    <link rel="icon" type="image/png" href="files/ucsd-logo.png">
+    <link rel="manifest" href="files/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div class="header noselect">
+    <div class="content row">
+        <div class="header-profile-picture"></div>
+        <div class="header-text">
+            <div class="header-name">
+                <h1>Pradyumna Sridhara</h1>
+            </div>
+            <div class="header-subtitle">
+                MS in Computer Science, UC San Diego
+            </div>
+            <div class="header-links">
+                <a class="btn" href="#contact">Email</a> /
+                <a class="btn" href="https://scholar.google.com/citations?user=M0XRDiAAAAAJ&hl=en">Google Scholar</a> /
+                <a class="btn" href="https://github.com/pradyumnasridhar">GitHub</a> /
+                <!-- <a class="btn" href="https://twitter.com/RishabhJangir">Twitter</a> / -->
+                <a class="btn" href="https://www.linkedin.com/in/pradyumna-sridhar/">LinkedIn</a> /
+                <a class="btn" href="files/resume.pdf">Resume</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content" style="padding-bottom: 64px;">
+    <div>
+        <p>
+            I'm a second year Master's student speclizing in Machine Learning Systems, with the Computer Science and Engineering Department at the <a href="https://ucsd.edu/">University of California - San Diego (UCSD)</a>, advised by Prof. <a href="https://cseweb.ucsd.edu/~arunkk/">Arun Kumar</a>.
+            Before this, I obtained my B.Tech. from <a href="https://pes.edu">PES University</a> (Bengaluru, India), majoring in Computer Science with a minor in Business Administration.
+        </p>
+    </div>
+    <div>
+        <h2 class="noselect">Research</h2>
+        <p>
+            My research interests lie at the <b>intersection of Machine Learning and Software Systems</b> (i.e. ML Systems).
+            I develop algorithms, build platforms and infrastructure needed to improve the performance and scalability of end-to-end Machine Learning pipelines.
+            In doing so, I hope to improve the productivity of Data Scientists and ML Engineers, and at the same time, make machine learning more accescibile to the everyday user by reducing time and costs.
+            My expertise lie in software systems, cloud computing, distributed computing, containerization and container orchestration. I have deep technical know-how and hands on exprience with
+            today's Machine Learning algorithms, as well as their inner workings in the context of its scalability and "distributability".
+        </p>
+    </div>
+    <div>
+        <h2 class="noselect">Current Work</h2>
+        <p>
+            <a class="publication-title bold" href="https://adalabucsd.github.io/cerebro.html">Cerebro</a> - <b> a distributed deep learning framework that offers effecient model selection pipelines on multi-node multi-GPU clusters</b>. Two existing (and growing)
+            execution strategies developed in our group are - Model Hopper Parallism which is a hybrid of task and data parallism, and Hydra - which focuses on model sharding. My work involves designing
+            a <b>unified scheduler</b>, along with the surrounding infrastructure, that can work across all three strategies - <b>model parallism, data parallism and task parallism</b>, in an effecient manner. This ensures that small models that work on large data, such as images and video
+            as well as large models that don't fit in GPU memory, such as Transformers, can make use of Cerebro's increased performance and scalability. Current experiments are on <b>AWS</b>, using <b>Dask</b> for the ETL pipeline and <b>Kubernetes</b> for container orchestration.
+        </p>
+    </div>
+    <div>
+        <h2 class="noselect">Publications and preprints</h2>
+        <div class="publication row clearfix">
+            <div class="row-media" style="background-image: url(files/lfm.png);"></div>
+            <div class="row-text">
+                <a class="publication-title bold" href="https://ojs.aaai.org/index.php/AAAI/article/view/21258">Learning from Mistakes - A Framework for Neural Architecture Search</a><br/>
+                Bhanu Garg*, Li Zhang*, <span class="bold">Pradyumna Sridhara</span>, Eric Xing, Pengtao Xie<br/>
+                <span class="italic">Association for the Advancement of Artificial Intelligence (<a href="https://aaai.org/Conferences/AAAI-22/">AAAI </a></span>), 2022<br/>
+                <a class="btn btn-orange" href="">project page</a> / <a class="btn btn-red" href="https://arxiv.org/abs/2111.06353">arXiv</a> / <a class="btn" href="">code</a> / <a class="btn btn-dark" href="">bibtex</a>
+            </div>
+        </div>
+        <div class="publication row clearfix">
+            <div class="row-media" style="background-image: url(files/bodhisattva.png);"></div>
+            <div class="row-text">
+                <a class="publication-title bold" href="https://ieeexplore.ieee.org/abstract/document/8648632">Bodhisattva: Rapid Deployment of AI on Containers</a><br/>
+                Shreyas S. Rao, <span class="bold">Pradyumna S</span>, Subramaniam Kalambur, Dinkar Sitaram<br/>
+                <span class="italic">IEEE International Conference on Cloud Computing in Emerging Markets <br/>(<a href="https://ieeexplore.ieee.org/xpl/conhome/8638717/proceeding">IEEE CCEM </a></span>), 2018<br/>
+                <a class="btn btn-orange" href="https://github.com/pradyumnasridhar/Bodhisattva-Rapid-Deployment-of-AI-on-Containers">project page</a> / <a class="btn btn-red" href="">arXiv</a> / <a class="btn" href="https://github.com/pradyumnasridhar/Bodhisattva-Rapid-Deployment-of-AI-on-Containers">code</a> / <a class="btn btn-dark" href="">bibtex</a>
+            </div>
+        </div>
+        <div class="publication row clearfix">
+            <div class="row-media" style="background-image: url(files/xbridge.png);"></div>
+            <div class="row-text">
+                <a class="publication-title bold" href="https://link.springer.com/chapter/10.1007/978-981-13-1927-3_65">xBridge - A Microservices-Based Smart IoT Gateway System</a><br/>
+                <span class="bold">P Sridhara</span>, N Kamath, S Srinivas<br/>
+                <span class="italic">Smart Intelligent Computing and Applications <br/>(<a href="https://link.springer.com/book/10.1007/978-981-13-1921-1">Springer SCI </a></span>), 2018<br/>
+                <a class="btn btn-orange" href="">project page</a> / <a class="btn btn-red" href="">arXiv</a> / <a class="btn" href="">code</a> / <a class="btn btn-dark" href="">bibtex</a>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h2 class="noselect">Work Experience</h2>
+        
+        <div class="publication row clearfix">
+            <div class="press-borderless img-contain row-media" style="background-image: url(files/rakuten.png);"></div>
+            <div class="row-text">
+                <span class="big"><a href="https://rakuten.us/">Rakuten Americas</a></span><br/>
+                <span>San Mateo, California</span><br/>
+                <span>Jun 2021 - Sep 2021 · 4 mos</span><br/>
+                <span class="bold italic">Big Data and Cloud Engineering Intern</span><br/>
+                • Designed a BigQuery solution to host and analyze data quality reports of the Rakuten Catalog Platform team.
+                Integrated the BQ data with Google DataStudio to showcase visual trends. This has been pushed to production.<br/>
+            </div>
+        </div>
+        <div class="publication row clearfix">
+            <div class="press-borderless img-contain row-media" style="background-image: url(files/cisco.png);"></div>
+            <div class="row-text">
+                <span class="big"><a href="https://www.cisco.com/">Cisco Systems</a></span><br/>
+                <span>Bengaluru, India</span><br/>
+                <span>Jul 2018 - Jan 2021 · 2 yrs 8 mos</span><br/>
+                <span class="bold italic">Software Engineer II</span><br/>
+                • Technical Lead for a MeanStack solution delivering 560K+ historical contract
+                images, invoices and orders to Cisco Partners. It is being used as the de facto
+                tool for all Software-IT use cases. Deployed to production in 2020. <br/>
+                • Worked on optimizing HPA in Kubernetes. Achieved better REST call failure
+                rates in Cisco production environments using Liveness and Readiness Probes.<br/>
+                • Designed and delivered a zero-fault image migration system for 70K+ of
+                Cisco’s highly critical networking firmware images, playing a key role in all
+                Cisco firmware image downloads. Deployed to production in 2019.<br/>
+            </div>
+        </div>
+        <div class="publication row clearfix">
+            <div class="press-borderless img-contain row-media" style="background-image: url(files/cisco.png);"></div>
+            <div class="row-text">
+                <span class="big"><a href="https://www.cisco.com/">Cisco Systems</a></span><br/>
+                <span>Bengaluru, India</span><br/>
+                <span>Jan 2018 - Jun 2018 · 6 mos</span><br/>
+                <span class="bold italic">Software Engineering Intern</span><br/>
+                • Worked on BotLite – a chatbot creation framework developed by Cisco.
+                My primary focus was on making the chatbots more human-like by enhancing its natural language understanding
+                capabilities using Rasa.ai.<br/>
+            </div>
+        </div>
+        <div class="publication row clearfix">
+            <div class="press-borderless img-contain row-media" style="background-image: url(files/analog.png);"></div>
+            <div class="row-text">
+                <span class="big"><a href="https://www.analog.com/">Analog Devices</a></span><br/>
+                <span>Bengaluru, India</span><br/>
+                <span>Jun 2017 - Aug 2017 · 3 mos</span><br/>
+                <span class="bold italic">IoT Applications Intern</span><br/>
+                • Designed and developed a cross-platform, multi-protocol smart IoT Gateway
+                system that supports cloud platform compatibility across Cloud Service
+                Providers and fast horizontal scalability across radio-frequency protocols. <br/>
+                • The device was used to demo Analog Devices' flagship Structural Health
+                Monitoring system at The IoT Solutions World Congress 2017, Barcelona.<br/>
+                • The work was published at the General Technical Conference, 2018 – Analog
+                Devices’ top technical conference.<br/>
+                • In active use from 2017-2019 at Analog Devices.<br/>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <h2 class="noselect">Teaching</h2>
+        
+        <div class="publication row clearfix">
+            <div class="press img-contain row-media" style="background-image: url(files/ucsd-logo-large.png);"></div>
+            <div class="row-text">
+                <span class="bold">DSC 102 Systems for Scalable Analytics by Prof. Arun Kumar</span><br/>
+                <span>University of California San Diego, Winter 22</span><br/>
+                <span class="italic">Teaching Assistant</span><br/>
+                <a class="btn btn-orange" href="https://cseweb.ucsd.edu/~arunkk/dsc102_winter22/">website</a>
+            </div>
+        </div>
+        <div class="publication row clearfix">
+            <div class="press img-contain row-media" style="background-image: url(files/ucsd-logo-large.png);"></div>
+            <div class="row-text">
+                <span class="bold">CSE 21 Mathematics for Algorithms and Systems by Prof. Miles Jones</span><br/>
+                <span>University of California San Diego, Fall 21</span><br/>
+                <span class="italic">Teaching Assistant</span>
+            </div>
+        </div>
+    </div>
+    
+    <div class="noselect">
+        <a id="contact"></a>
+        <h2>Contact</h2>
+        You're very welcome to contact me regarding my research or for job oppurtunities. You can reach me at <span class="bold">pradyumnasridhar</span> [at] <span class="bold">gmail</span> [dot] com
+    </div>
+</div>
+<div class="footer noselect">
+    <div class="footer-content">
+         Website design by Nicklas Hansen &copy; 2021. You can fork it <a href="https://github.com/nicklashansen/nicklashansen.github.io">here</a>.
+    </div>
+</div>
