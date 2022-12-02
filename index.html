@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <head>
     <title>Pradyumna Sridhara</title>
     <meta name="author" content="Pradyumna Sridhara">
@@ -19,26 +20,27 @@
         <div class="header-text">
             <div class="header-name">
                 <h1>Pradyumna Sridhara</h1>
+                <!-- <span>(ಪ್ರದ್ಯುಮ್ನ ಶ್ರೀಧರ)</span> -->
             </div>
             <div class="header-subtitle">
-                MS in Computer Science, UC San Diego
+                Graduate Student Researcher, MS in Computer Science, UC San Diego
             </div>
             <div class="header-links">
-                <a class="btn" href="#contact">Email</a> /
-                <a class="btn" href="https://scholar.google.com/citations?user=M0XRDiAAAAAJ&hl=en">Google Scholar</a> /
-                <a class="btn" href="https://github.com/pradyumnasridhar">GitHub</a> /
+                <a class="btn" href="#contact"><div class="header-icon" style="background-image: url(files/email-icon.png);"></div></a> 
+                <a class="btn" href="https://scholar.google.com/citations?user=M0XRDiAAAAAJ&hl=en"><div class="header-icon" style="background-image: url(files/google-scholar-icon.png);"></div></a> 
+                <a class="btn" href="https://github.com/pradyumnasridhar"><div class="header-icon" style="background-image: url(files/github-icon.png);"></div></a> 
                 <!-- <a class="btn" href="https://twitter.com/RishabhJangir">Twitter</a> / -->
-                <a class="btn" href="https://www.linkedin.com/in/pradyumna-sridhar/">LinkedIn</a> /
-                <a class="btn" href="files/resume.pdf">Resume</a>
-            </div>
+                <a class="btn" href="https://www.linkedin.com/in/pradyumna-sridhar/"><div class="header-icon" style="background-image: url(files/linkedin-icon.png);"></div></a> 
+                <a class="btn" href="files/resume.pdf"><div class="header-icon" style="background-image: url(files/resume-icon.png);"></div></a>
+         </div>   </div>
         </div>
     </div>
 </div>
 <div class="content" style="padding-bottom: 64px;">
     <div>
         <p>
-            I'm a second year Master's student speclizing in Machine Learning Systems, with the Computer Science and Engineering Department at the <a href="https://ucsd.edu/">University of California - San Diego (UCSD)</a>, advised by Prof. <a href="https://cseweb.ucsd.edu/~arunkk/">Arun Kumar</a>.
-            Before this, I obtained my B.Tech. from <a href="https://pes.edu">PES University</a> (Bengaluru, India), majoring in Computer Science with a minor in Business Administration.
+            I'm a second year Master's student specializing in Machine Learning Systems, with the Computer Science and Engineering Department at the <a href="https://ucsd.edu/">University of California - San Diego (UCSD)</a>, advised by Prof. <a href="https://cseweb.ucsd.edu/~arunkk/">Arun Kumar</a>.
+            Prior to this, I obtained my B.Tech. from <a href="https://pes.edu">PES University</a> (Bengaluru, India), majoring in Computer Science with a minor in Business Administration.
         </p>
     </div>
     <div>
@@ -56,8 +58,8 @@
         <p>
             <a class="publication-title bold" href="https://adalabucsd.github.io/cerebro.html">Cerebro</a> - <b> a distributed deep learning framework that offers effecient model selection pipelines on multi-node multi-GPU clusters</b>. Two existing (and growing)
             execution strategies developed in our group are - Model Hopper Parallism which is a hybrid of task and data parallism, and Hydra - which focuses on model sharding. My work involves designing
-            a <b>unified scheduler</b>, along with the surrounding infrastructure, that can work across all three strategies - <b>model parallism, data parallism and task parallism</b>, in an effecient manner. This ensures that small models that work on large data, such as images and video
-            as well as large models that don't fit in GPU memory, such as Transformers, can make use of Cerebro's increased performance and scalability. Current experiments are on <b>AWS</b>, using <b>Dask</b> for the ETL pipeline and <b>Kubernetes</b> for container orchestration.
+            a <b>unified scheduler</b>, along with the surrounding infrastructure, that can work across all three strategies - <b>model parallism, data parallism and task parallism</b>, in an effecient manner. This ensures that small deep learning models that work on large data - multimedia such as images and videos
+            , as well as large models that don't fit on a single GPU's memory - such as Transformers, can make use of Cerebro's increased performance and scalability. Current experiments are on 16-GPU 4 node/8node <b>AWS</b> clusters, using <b>Dask</b> for the ETL pipeline and <b>Kubernetes</b> for container orchestration.
         </p>
     </div>
     <div>
@@ -159,10 +161,9 @@
         <div class="publication row clearfix">
             <div class="press img-contain row-media" style="background-image: url(files/ucsd-logo-large.png);"></div>
             <div class="row-text">
-                <span class="bold">DSC 102 Systems for Scalable Analytics by Prof. Arun Kumar</span><br/>
+                <span class="bold"><a href="https://cseweb.ucsd.edu/~arunkk/dsc102_winter22/">DSC 102 Systems for Scalable Analytics by Prof. Arun Kumar</a></span><br/>
                 <span>University of California San Diego, Winter 22</span><br/>
                 <span class="italic">Teaching Assistant</span><br/>
-                <a class="btn btn-orange" href="https://cseweb.ucsd.edu/~arunkk/dsc102_winter22/">website</a>
             </div>
         </div>
         <div class="publication row clearfix">
